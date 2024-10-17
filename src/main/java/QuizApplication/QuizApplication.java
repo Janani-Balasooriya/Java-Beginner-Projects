@@ -1,3 +1,5 @@
+package QuizApplication;
+
 import java.util.Scanner;
 
 public class QuizApplication {
