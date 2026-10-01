@@ -23,6 +23,11 @@ public class Calculator {
                 printMenu();
                 int choice = readInt(in, "Choose option (1-5): ");
 
+                if (choice < 1 || choice > 5) {
+                    System.out.println("Invalid option. Try again.");
+                    continue;
+                }
+
                 if (choice == 5) {
                     System.out.println("Goodbye!");
                     break;
